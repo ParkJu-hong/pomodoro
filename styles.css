@@ -8,7 +8,7 @@ body {
   }
   
   #timer {
-    font-size: 48px;
+    font-size: 200px;
   }
 
   button {
@@ -32,4 +32,11 @@ body {
   button:active {
     transform: scale(0.95);
   }
+
+  @media (max-width: 800px) {
+    #timer {
+      font-size: 150px; /* 모바일 환경에서는 타이머의 글꼴 크기를 줄입니다. */
+    }
+  }
+  
   
